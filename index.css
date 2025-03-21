@@ -1,0 +1,286 @@
+/* THIS SECTION IS FOR THE ENTIRE BODY */
+body{
+
+    margin-bottom: 30rem;
+    margin-top: 0;
+    scroll-behavior: smooth;
+    
+}
+
+
+/* THIS SECTION IS FOR THE HEADER */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    /* grid-template-rows: 2fr 3fr; */
+    margin-top: 0;
+    width: 100%;
+    border-bottom:  solid 2px;
+    border-bottom-color: rgb(190, 182, 182);
+    align-self: center;
+    background-size: cover;
+    position: sticky;
+    color: teal;
+}
+
+/* header first section content */
+.header-right{
+background-color:  white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.logo{
+    align-self: center;
+    width: 5rem;
+    
+}
+/* HEADER  NAV CONTENT */
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+nav ul, a{
+    color: rgb(14, 14, 110);
+    display: flex;
+    gap: 2.5rem;
+    /* width: 1rem;
+    height: 1rem; */
+    text-decoration: none;
+    list-style-type: none;
+    font-weight: 700;
+    font-size: 1rem;
+    align-self: center;
+    font-family: Arial,  sans-serif;
+    scale: 1.1;
+    padding: .5rem;
+
+}
+
+nav ul li a:hover{
+ /* scale: 1.005;  */
+ border-radius: 5px;
+ border:  solid 2px darkblue;
+/* text-transform: uppercase; */
+
+
+color: white;
+background-color: black;
+    
+}
+
+.header-right h1 span:nth-child(1){
+    color: darkblue;
+}
+.header-right h1 span:nth-child(2){
+    color: rgb(191, 231, 11);
+}
+.header-right h1 span:nth-child(3){
+    color: orangered;
+}
+.header-right h1{
+    color: darkblue;
+}
+/* HEADER NAV THAT I WANT TO ONLY DISPLAY IN MOBILE */
+ 
+nav .sidebar {
+    display: none;
+}
+.ham-image{
+    display: none;
+}
+/*  this section is the main */
+main{
+    margin-top:3rem ;
+}
+
+/* this is the main first section */
+main{
+   
+}
+
+ hr{
+    background-color: orangered;
+    width: 80%; height: 4px;
+    border: none;
+    border-radius: 3px;
+ }
+ .intro{
+  font-size: large;
+  font-weight: bold;
+  background-color:rgb(14, 14, 77) ; 
+  box-shadow: 0px 3px 3px 3px;
+  box-shadow: black;
+  border-radius: 20px;
+  margin-left: 15%;
+  margin-right: 15%; 
+  padding: 1rem;
+  
+  }
+
+
+  
+.text{
+    z-index: 2;
+    color: white;
+    padding: .45rem;
+    text-align: center;
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
+    font: 1rem sans-serif;
+     line-height: 2rem;
+     font-weight: 60;
+     ;
+
+}
+/* button */
+.button-div{
+    display: flex;
+    justify-content: space-evenly;
+}
+button{
+    border:  3pxsolid white;
+    background-color: red;
+    color: white;
+    pad: 1rem;
+    font-family: Arial, sans-serif;
+    font-weight: bolder;
+    size: 2rem;
+    cursor: pointer;
+    height:2rem ;
+    
+}
+
+
+/* this is the second section in the main */
+#about{
+    margin-top: 20px;
+    margin-left: 10%;
+    margin-right: 10%; 
+    padding: 1rem;
+    
+    background-color: rgba(191, 231, 11, 0.301);
+border-radius: 20px;
+border-bottom-color: rgb(14, 14, 77);
+
+
+}
+
+.about-content{
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+    gap: 20px;
+
+}
+/* everyhing here is in the about content div */
+.abt-col{
+
+}
+
+.profile {
+    /* width: 40%; */
+
+}
+.profile img {
+    width: 100%;
+    background-color: white;
+    padding: 20px;
+
+}
+
+.profile-content{
+    background-color: white;
+    /* width: 55%; */
+    padding: 40px;
+    border-radius: 20px;
+    line-height: 25px;
+}
+
+#about h1{
+    text-align: center;
+}
+
+ .profile img{
+    width:15rem;
+    height: auto;
+    border-radius: 15px;
+}
+
+/* the services section */
+
+#services{
+
+
+}
+
+/* this placeis the services div containing the div the images are in */
+.services-header{
+display: flex;
+justify-content: space-between;
+
+
+}
+
+.image-div{
+width:17rem;
+}
+.image-div img{
+    width: 100%;
+}
+
+ .sevices-content{
+    background-color:rgb(14, 14, 77) ;
+    border: none;
+    font-weight: 300;
+    padding: .45rem;
+    color: white;
+    border-radius: 5px;
+    height: 0;
+    overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+.skill-header{
+    margin-top: 25px;
+    background-color: white;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px 3px;
+    padding: .5rem; 
+    color:rgb(14, 14, 110);
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+
+    
+    
+
+
+
+
+
+/* small devices (landscape phones */
+@media (max-width:425px)  {}
+
+
+    
