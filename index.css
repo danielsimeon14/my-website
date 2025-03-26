@@ -22,6 +22,7 @@ header{
     background-size: cover;
     position: sticky;
     color: teal;
+    
 }
 
 /* header first section content */
@@ -103,9 +104,7 @@ main{
 }
 
 /* this is the main first section */
-main{
-   
-}
+
 
  hr{
     background-color: orangered;
@@ -148,7 +147,7 @@ main{
 }
 button{
     border:  3pxsolid white;
-    background-color: red;
+    background-color: orangered;
     color: white;
     pad: 1rem;
     font-family: Arial, sans-serif;
@@ -183,9 +182,7 @@ border-bottom-color: rgb(14, 14, 77);
 
 }
 /* everyhing here is in the about content div */
-.abt-col{
 
-}
 
 .profile {
     /* width: 40%; */
@@ -220,22 +217,37 @@ border-bottom-color: rgb(14, 14, 77);
 
 #services{
 
-
+    margin-right: 12%;
+    margin-left: 12%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+text-align: center;
 }
 
 /* this placeis the services div containing the div the images are in */
 .services-header{
 display: flex;
 justify-content: space-between;
-
+box-shadow: 3px 3px 3px 3px;
+    padding: 1rem; 
+    color:rgb(14, 14, 110);
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+    border-radius: 20px;
+    gap: 1rem;
+    align-items: center;
 
 }
 
 .image-div{
-width:17rem;
+    
+background-color: rgba(191, 231, 11, 0.301), wheat;
+padding: 10px;
 }
 .image-div img{
     width: 100%;
+    height: 12rem;
 }
 
  .sevices-content{
@@ -259,19 +271,78 @@ width:17rem;
 
 .skill-header{
     margin-top: 25px;
-    background-color: white;
-    margin-left: 25%;
-    margin-right: 25%;
+    background-color: wheat;
+    /* margin-left: 25%;
+    margin-right: ; */
     border-radius: 20px;
     box-shadow: 3px 3px 3px 3px;
-    padding: .5rem; 
+    padding: 2rem; 
     color:rgb(14, 14, 110);
     text-align: center;
     font-size: x-large;
     font-weight: bold;
 }
 
+.tag-icon{
+    background-color: white;
+    margin-left: 8px;
+    margin-right: 8px;
+    border-radius: 8px;
+    box-shadow: 3px 3px 3px 3px;
+    padding: 8px; 
+    color:rgb(14, 14, 110);
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    width: fit-content;
+}  
 
+.tech-icon{
+    display: flex;
+    flex-template-rows: 1fr 3fr 1fr;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.skill-images{
+    width: 10rem;
+    size: 20rem;
+
+}
+
+.skill-images-content{
+display: flex;
+justify-content: space-between;
+}
+
+
+footer{
+    background-color: black;
+    
+}
+
+.contact{
+    align-items: center;
+}
+
+.contact form{
+    box-sizing: border-box;
+    background-color: rgb(83, 82, 82);
+    line-height: 2;
+    align-self: center;
+    padding: 2rem 4rem;
+
+}
+
+input{
+    height: 1.5rem;
+    align-self: center;
+}
+body{
+    background-color: whitesmoke;
+}
     
     
 
